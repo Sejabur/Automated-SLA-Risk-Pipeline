@@ -7,7 +7,7 @@ const rateLimit = new Map<string, { count: number; timestamp: number }>();
 export async function updateSession(request: NextRequest) {
   // 1. Rate Limiting Check (Bypassed in local development to avoid blocking Next.js internal requests)
   if (process.env.NODE_ENV !== 'development') {
-    const ip = request.ip || request.headers.get("x-forwarded-for") || "unknown";
+    const ip = request.headers.get("x-forwarded-for") || "unknown";
     const now = Date.now();
     const windowMs = 60 * 1000; // 1 minute
     const maxRequests = 100; // Limit each IP to 100 requests per window
