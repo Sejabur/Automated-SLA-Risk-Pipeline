@@ -11,6 +11,9 @@
 
 The Automated SLA Risk Pipeline (ASRP) is an enterprise tool built to solve a critical blind spot in IT management: tracking third-party vendor reliability. By automating the comparison between promised Service Level Agreements (SLAs) and actual uptime, the platform replaces manual spreadsheets with real-time, data-driven intelligence. It enables organizations to instantly calculate vendor risk, generate executive-level briefings, and help organizations identify elevated operational risk before vendor reliability issues propagate across dependent services.
 
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/400da08a-f5af-4d13-b8b7-39bb96bba04d" />
+
+
 ## Problem Statement
 
 Organizations rely on dozens of cloud infrastructure and Software-as-a-Service (SaaS) providers to maintain their daily operations. Each of these vendors provides an SLA guaranteeing a specific percentage of uptime (e.g., 99.9%). 
